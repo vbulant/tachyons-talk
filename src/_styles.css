@@ -8,10 +8,13 @@
 
 :root {
 	--actum-red: #ed3d25;
+	--actum-blue: #062444;
 }
 
 .actum-red { color: var(--actum-red); }
 .bg-actum-red { background-color: var(--actum-red); }
+.actum-blue { color: var(--actum-blue); }
+.bg-actum-blue { background-color: var(--actum-blue); }
 
 .source-sans { font-family: 'Source Sans Pro', sans-serif; }
 
@@ -19,4 +22,18 @@
 	margin-right: .5rem;
 	content: "›";
 	color: var(--actum-red);
+}
+
+@media (--breakpoint-not-small) {
+	.f4-5-ns {
+		font-size: 1.125rem;
+	}
+}
+
+.f7 {
+	font-size: .5rem;
+}
+
+.container {
+	max-width: 980px;
 }

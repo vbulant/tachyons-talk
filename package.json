@@ -46,7 +46,7 @@
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm run build' ./src/",
-    "serve": "browser-sync start -s -f 'index.html, css/tachyons.css' --no-open",
+    "serve": "browser-sync start -s -f 'index.html, css/tachyons.css' --no-open --no-notify",
 		"browser-sync": "browser-sync"
   }
 }
