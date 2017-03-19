@@ -1113,8 +1113,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1986,6 +1986,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+.actum-red { color: #ed3d25; }
+.bg-actum-red { background-color: #ed3d25; }
+.source-sans { font-family: 'Source Sans Pro', sans-serif; }
+.chevron:before { margin-right: .5rem; content: "›"; color: #ed3d25; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*

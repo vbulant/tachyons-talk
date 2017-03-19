@@ -6,3 +6,17 @@
 
 */
 
+:root {
+	--actum-red: #ed3d25;
+}
+
+.actum-red { color: var(--actum-red); }
+.bg-actum-red { background-color: var(--actum-red); }
+
+.source-sans { font-family: 'Source Sans Pro', sans-serif; }
+
+.chevron:before {
+	margin-right: .5rem;
+	content: "›";
+	color: var(--actum-red);
+}
