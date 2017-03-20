@@ -27,6 +27,7 @@
     "normalize.css": "^4.2.0",
     "tachyons-cli": "^1.0.10",
     "tachyons-modules": "^1.1.8",
+    "uncss": "^0.14.1",
     "watch": "^1.0.1"
   },
   "contributors": [
@@ -47,6 +48,9 @@
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm run build' ./src/",
     "serve": "browser-sync start -s -f 'index.html, css/tachyons.css' --no-open --no-notify",
-		"browser-sync": "browser-sync"
+    "browser-sync": "browser-sync",
+    "uncss": "uncss",
+    "uncss-tachyons": "npm run uncss http://localhost:3000/index.html > css/tachyons.uncss.css",
+    "uncss-original": "npm run uncss http://localhost:3000/original.html > css/style.uncss.css"
   }
 }
